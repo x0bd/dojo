@@ -1,6 +1,7 @@
 {
 	"include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx"],
 	"compilerOptions": {
+		"ignoreDeprecations": "5.0",
 		"lib": ["DOM", "DOM.Iterable", "ES2019"],
 		"isolatedModules": true,
 		"esModuleInterop": true,
